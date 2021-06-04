@@ -4,15 +4,16 @@
 <script src='https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js'></script>
 <script src='https://www.gstatic.com/firebasejs/8.2.0/firebase-messaging.js'></script>
 // Initialize the Firebase app in the service worker by passing the generated config
-var firebaseConfig = {
-    apiKey: "AIzaSyDr0F9O5EEdJkPJc-_nH412NQul8hwNUoA",
-    authDomain: "myoutdoors-34341.firebaseapp.com",
-    projectId: "myoutdoors-34341",
-    storageBucket: "myoutdoors-34341.appspot.com",
-    messagingSenderId: "1040583266185",
-    appId: "1:1040583266185:web:e710b09bab684f0118db58",
-    measurementId: "G-V1F4EE1BVT"
+const firebaseConfig = {
+  apiKey: "AIzaSyBISMis4gZ81MO1M6f1a27aLSZcmT_0eXg",
+  authDomain: "myfirebase-push-notifitcation.firebaseapp.com",
+  projectId: "myfirebase-push-notifitcation",
+  storageBucket: "myfirebase-push-notifitcation.appspot.com",
+  messagingSenderId: "952281832074",
+  appId: "1:952281832074:web:5e04bc2418050a0664ab73",
+  measurementId: "G-LK8H7LT827"
 };
+
 firebase.initializeApp(firebaseConfig);
 // Retrieve firebase messaging
 const messaging = firebase.messaging();
